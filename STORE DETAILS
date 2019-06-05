@@ -1,0 +1,20 @@
+CREATE TABLE store(id INTEGER PRIMARY KEY,items TEXT,price INTEGER,quantity INTEGER,demand INTEGER);
+INSERT INTO store VALUES(1,"bike",100,5,7);
+INSERT INTO store VALUES(2,"t-shirt",50,10,5);
+INSERT INTO store VALUES(3,"pants",70,10,5);
+INSERT INTO store VALUES(4,"caps",10,15,8);
+INSERT INTO store VALUES(5,"umbrellas",15,13,4);
+INSERT INTO store VALUES(6,"kites",2,20,7);
+INSERT INTO store VALUES(7,"chocolates",5,17,10);
+INSERT INTO store VALUES(8,"shoes",45,8,12);
+INSERT INTO store VALUES(9,"sleepers",12,3,4);
+INSERT INTO store VALUES(10,"shirts",60,18,10);
+INSERT INTO store VALUES(11,"vaseline",10,2,1);
+INSERT INTO store VALUES(12,"pencils",1,2,3);
+INSERT INTO store VALUES(13,"rubber",2,3,3);
+INSERT INTO store VALUES(14,"pants",67,12,10);
+
+INSERT INTO store VALUES(15,"jeans",56,13,14);
+SELECT * FROM store ORDER BY price;
+SELECT sum(quantity) FROM store;
+SELECT max(demand) FROM store;
