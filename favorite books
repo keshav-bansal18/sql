@@ -1,0 +1,10 @@
+CREATE TABLE booksdetail(id  INTEGER PRIMARY KEY,name TEXT,rating INTEGER);
+
+INSERT INTO booksdetail  VALUES(1,"RICH DAD AND POOR DAD",4.4);
+INSERT INTO booksdetail VALUES(2,"The Philosopher's Stone",5);
+INSERT INTO booksdetail VALUES(3,"The Chamber of Secrets",6);
+INSERT INTO booksdetail VALUES(4,"The Prisoner of Azakaban",7);
+INSERT INTO booksdetail VALUES(5,"The Goblet of Fire",8);
+INSERT INTO booksdetail VALUES(6,"The Order of the Phoenix",9);
+
+
